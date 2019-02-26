@@ -12,7 +12,7 @@ end
 
 def pop_with_args(array, number)
   return_array = []
-  for item in 1..number 
+  for item in 1..number
     return_array.push(array.pop)
   end
   return_array
