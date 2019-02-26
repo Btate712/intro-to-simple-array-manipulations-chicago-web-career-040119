@@ -10,24 +10,16 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, number)
-  return_array = []
-  for item in 1..number
-    return_array.push(array.pop)
-  end
-  return_array
+def pop_with_args(array)
+  array.pop(2)
 end
 
 def using_shift(array)
   array.shift
 end
 
-def shift_with_args(array, number)
-  return_array = []
-  for item in 1..number
-    return_array.push(array.shift)
-  end
-  return_array
+def shift_with_args(array)
+  array.shift(2)
 end
 
 def using_concat(array1, array2)
